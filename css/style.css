@@ -365,6 +365,11 @@ header .main-menue ul li a:hover{
         grid-template-columns: repeat(auto-fill,minmax(290px,1fr));
     }
  }
+ @media (max-width:992px) and (min-width:577px) {
+    .portfolio .portfolio-grid{
+        grid-gap: 15px;
+    }
+}​
 /* portfolio */
 /* about */
 .about{
